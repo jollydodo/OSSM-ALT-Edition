@@ -1,0 +1,30 @@
+﻿Assembly Category;Item No.;Part Name;Description;Quantity;Unit;Supplier Link;Unit Price;Total Price;Remarks
+Belt Mechanics;B-0;MGN-15H Rail;Tested with 400mm Length;1;pcs;;;;The better the quality, the smoother it will be. Legitimate Hiwin is preferred, but Aliexpress alternatives will probably work ass well. Usable length is approximately rail length - 150mm
+Belt Mechanics;B-1;625-RS Bearings;Belt Bearings;6;pcs;Amazon Link; €8.99 ; €8.99 ;10 Pack
+Belt Mechanics;B-2;Precision Dowel Pin Kit;Dowel Pins for Bearings Kit;1;pcs;Amazon Link;€12.99;€12.99;This pack contains all the pins needed for the complete OSSM ALT version inclduding new Pit Clamp
+Belt Mechanics;B-2B;M5*30 Dowel Pin (2 pins);M5*30 dowel 5 pack;1;pcs;Bambulab Link;€1.45;€1.45;This is sufficient If you are only making the belt mechanics withouth redesigned pitclamp. You do not need the dowel Pin kit in this case
+Belt Mechanics;B-3;GT2 Belt (9-12 or 15mm);Rail length + 10cm;;;;;;Pick any GT2 Belt that will fit your GT2 pulley. OSSM ALT version support everything up to 15mm. 15MM gives the most grip
+Belt Mechanics;B-4;GT2 20T Pulley (15mm belt max);Pulley for your belt size;1;pcs;;;;Pick a pulley that fits your belt. A pulley that supports a 15mm belt has maximim performance, but 9 or 12mm will work as well
+Belt Mechanics;B-5;M5 Bolt Kit;M5 bolt kit for complete OSSM ALT;1;pcs;Amazon Link;€11.99;€11.99;This kit contains all the M5 bolts that are needed for the complete OSSM Alt Edition including redesigned Pitclamp
+Belt Mechanics;B-5B;M5*30 Head Cap Bolt;Front mount bolts;2;pcs;;;;Only needed if you don't buy the M5 bolt kit
+Belt Mechanics;B-5C;M5*20 Head Cap Bolt;Front mount bolts;1;pcs;;;;Only needed if you don't buy the M5 bolt kit
+Belt Mechanics;B-6;M3 Bolt Kit;M3 bolt kit for complete OSSM ALT;1;pcs;Amazon Link;€8.88;€8.88;This kit contains all the M3 bolts that are needed for the complete OSSM Alt Edition
+Motor / PCB Housing;C-0;57AIM30 motor;OSSM Motor;1pcs;;;€ 100 ;;Around 100 euro's including shipping / taxes to Europe
+Motor / PCB Housing;C-1;M3 Bolt Kit;M3 bolt kit for complete OSSM ALT;1;pcs;Amazon Link;€8.88;€8.88;This kit contains all the M3 bolts that are needed for the complete OSSM Alt Edition
+Belt Mechanics;B-6B;M3*12 Head Cap Bolt;Rail bolts;4;pcs;;;;Only needed if you don't buy the M3 bolt kit
+Motor / PCB Housing;C-1B;M3*40 bolt;Housing bolts;2;pcs;;;;Only needed if you don't buy the M3 bolt kit
+Motor / PCB Housing;C-1C;M3*8 bolt;PCB Mount;2;pcs;;;;Only needed if you don't buy the M3 bolt kit
+Motor / PCB Housing;C-1D;M3*12 bolt;Top Cover Bolt;1;pcs;;;;Only needed if you don't buy the M3 bolt kit
+Motor / PCB Housing;C-2;M5*30 bolt;Motor Fastening Bolts;4;pcs;;;;Only needed if you don't buy the M5 bolt kit (Also not needed if you are using the original OSSM belt mechanics / front)
+Motor / PCB Housing;C-1E;M3 nuts;Captive Nuts ;5;pcs;;;;Only needed if you don't buy the M3 bolt kit
+Motor / PCB Housing;C-2B;M5 nuts;Captive Nuts ;3;pcs;;;;Only needed if you don't buy the M5 bolt kit
+Motor / PCB Housing;C-2C;M5 Lock nuts;M5 Motor lock nuts ;4;pcs;Toolstation Link;€3.05;€3.05;You can also use regular nuts, but those might vibrate. This is also needed if you are using the original OSSM. I've deleted the original coupling nuts that were an uncommon size). The link is for 100 pieces
+Motor / PCB Housing;C-3;OSSM ALT version Custom PCB;Custom PCB fore the ALT Version;1;pcs;;TBD;TBD;All production files are available. I'm looking into supplying some of these in Europe, but if you source them yourself and order a minimum of 10 you should get the price down to around 13 euro's a piece. It goes down to 10 at 20+. 
+Redesigned Pitclamp;D-1;Precision Dowel Pin Kit;Dowel Pins for Bearings Kit;1;pcs;Amazon Link;€12.99;€12.99;This pack contains all the pins needed for the complete OSSM ALT version inclduding new Pit Clamp
+Redesigned Pitclamp;D-1B;M5*25 Dowel Pin (2 pins);M5*25 dowel 5 pack;1;pcs;Bambulab Link;€1.45;€1.45;Only needed if you don't buy the dowel pin kit
+Redesigned Pitclamp;D-1B;M5*16 Dowel Pin (1 pins);M5*16 dowel 5 pack;1;pcs;Bambulab Link;€1.35;€1.35;Only needed if you don't buy the dowel pin kit
+Redesigned Pitclamp;D-2;M5*20 Head Cap bolt;Bolts to mount to 3030 extrusion;2;pcs;;;;Only needed if you don't buy the M5 bolt kit
+Redesigned Pitclamp;D-2;3030 extrusion M5 fastening nuts;M5 nuts for 3030 extrusion;2;pcs;;;;Just pick what you have / what you can get. There are many variant, but as long as it's m5 and fits 3030 it will work.
+Belt Clamp;E-1;M3 nuts;M3 nut;1;pcs;;;;
+Belt Clamp;E-2;M3*16  head cap bolt;Optional for front mount;1;pcs;;;;Optional to make sure it stays on, but it is not necessary since everything should be tightened together by the blet
+Other;F-0;3D print filament;500g should be more than sufficient. ;;;;;;Pitclamp: 100 grams  /  Belt Tensioning and toy mount: 63 grams / Belt Mechanics: 117 gram / Main Mechanics: 162 grams, Total: 442 gram
