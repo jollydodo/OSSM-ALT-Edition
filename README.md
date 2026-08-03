@@ -108,6 +108,8 @@ A comprehensive BOM with descriptions and links can be found [here](Assembly-Inf
 
 📖 **Written Assembly Guide**: In development
 
+❓ **Frequently asked**: [How do I install the brake chopper?](#how-do-i-install-the-brake-chopper)
+
 💬 **Need Help?** Join the KM [Discord community](https://kinkymakers.com) for assembly support and questions (Look for the OSSM ALT Project).
 
 ---
@@ -152,6 +154,35 @@ This was mainly a fun side project for me which also adds functionality. It is b
 
 ![Assembly PCB](/Images/assemblypcb.png)
 
+> 🔧 **Installing it?** See [How do I install the brake chopper?](#how-do-i-install-the-brake-chopper) in the FAQ.
+
+---
+
+## ❓ FAQ
+
+### How do I install the brake chopper?
+
+There are **two** ways to connect the brake chopper to the main PCB. Both are electrically identical — the brake chopper simply sits in parallel with the motor supply.
+
+#### Option 1: Screw terminal (recommended)
+
+Simply put the brake chopper wires into the **same green screw terminal** as the motor power wires: the red (+) wire together with the motor's red wire, and the black (GND) wire together with the motor's black wire. Twist the two wires of each pair together, insert them into the terminal and tighten the screw.
+
+This requires no soldering on the main PCB at all and is the option I recommend for everyone.
+
+![Brake chopper in the screw terminal](/Images/brakechopper-terminal.jpg)
+
+<video src="https://github.com/jollydodo/OSSM-ALT-Edition/raw/main/Images/brakechopper-install.mp4" controls width="640"></video>
+
+📺 [Watch the short installation video](https://github.com/jollydodo/OSSM-ALT-Edition/raw/main/Images/brakechopper-install.mp4) *(if the player above does not load)*
+
+#### Option 2: Solder to the dedicated pads
+
+If you don't like doubling up wires in the screw terminal, the main PCB has **two dedicated pads on the back** for the brake chopper, marked `Brake` (`VIN` and `GND`). Solder the red wire to `VIN` and the black wire to `GND`.
+
+![Brake chopper soldered to the dedicated pads](/Images/brakechopper-solder.jpg)
+
+> ⚠️ **At your own risk.** This is a 4-layer PCB with large copper planes that pull a lot of heat away from the joint, so you need a decent soldering iron (and patience). Double-check that you have not accidentally bridged anything before applying power.
 
 ---
 ## 🔋 Compatible Power Sources
@@ -166,6 +197,7 @@ This design is focused around PD, so it only makes sense to provide some options
 |--------|------|--------|--------|-------|------|-----|
 | [Apple 140W USB-C Adapter](https://www.apple.com/nl/shop/product/mw2m3zm/a/usb%E2%80%91c-lichtnetadapter-van-140-w) | Wall Adapter | 28V / 5A (140W) | 🔬 Tested | ✅ Recommended| ★★★★★ (5)| Excellent reliability and quality, Only ~€60 (will likely not work with other pcb's besides the OSSM ALT since it requires inrush current protection) |
 | [Ugreen 200W Powerbank](https://eu.ugreen.com/products/ugreen-nexode-power-bank-200w-25000mah) | Powerbank | 28V / 5A (140W) | 🔬 Tested| ✅ Recommended|★★★★★ (5)| Great portable option that negotiates with almost any chip. Best power bank I have tested.|
+| [Ugreen Nexode 145W Powerbank 25000mAh](https://nl.ugreen.com/products/ugreen-140w-power-bank-145w-max-25000mah-externe-batterij?currency=EUR&country=NL&variant=43580105326791) | Powerbank | 28V / 5A (140W) | 🔬 Tested | ✅ Recommended| ★★★★★ (5)| Tested by community member **Frayd**. Portable option in the same Nexode line as the 200W model above. |
 | [Anker 140W Wall Adapter](https://www.anker.com/products/a2697-anker-charger-140w-4-port) | Wall Adapter | 28V / 5A (140W) | 🔬 Tested| ✅ Recommended|★★★★☆ (4)| Works well, but you will definitely feel it get hot at prolonged 140W and after 20 minutes or so it will lower the power to cool down. 100Watts continuous is fine so for the gold motor there are no problems. I have yet to see a supported motor that pulls 140W continuous. 
 | [Sitecom 140W Wall adapter](https://www.action.com/nl-nl/p/3221194/sitecom-usb-wandoplader/) | Wall Adapter | 28V / 5A (140W)|🔬 Tested | ✅ Recommended| ★★★★☆ (4) | Cheapest adapter of the list (~€20). Did not do any extensive testing yet, but it negotiates 28V and 20V fine. I was also able to load test it at 140W and you can feel it get warmer similar to the Anker one, but it seems to hold up fine. At it's price point it is probably a very good deal (even comes with a cable), but we don't know if it's easy to source since right now it's sold at 'action' which normally changes its inventory quite quickly. 
 | [Ugreen 100W Wall Adapter](https://www.amazon.nl/dp/B091TV6LWN) | Wall Adapter | 20V / 5A (100W) | 🔬 Tested | ⚠️ Lower Power|★★★☆☆ (3) |Works okay, but do notice that this one does not support 28V. If you have the OSSM-Alt pcb at 28V and still try to power it, it will work but negotiates down to 20V. |
