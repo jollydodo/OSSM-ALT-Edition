@@ -253,7 +253,7 @@ Under the following conditions:
 Special thanks to:
 
 ### Core Contributors
-- **OrangeMurker & Nakata** - OSSM Rust firmware development and invaluable feedback
+- **Orange-gem & Nakata** - OSSM Rust firmware development and invaluable feedback
 - **Beta Testers** - All community members who tested and provided feedback
 
 ### Inspiration & Prior Art
